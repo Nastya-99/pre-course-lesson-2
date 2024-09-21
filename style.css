@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} /* - пишем всегда!!!! */
+
+body {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+section {
+  background-color: #eff2f9;
+  height: 100vh;
+}
+
+.card {
+  box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
+  background: #fff;
+  width: 1170px;
+  height: 800px;
+  padding: 60px 0 70px 0;
+}
+
+/* Левая часть */
+
+.product-img-block {
+  border-right: 2px solid rgba(20, 20, 20, 0.15);
+  width: 540px;
+}
+
+.preview {
+  width: 80px;
+  height: 80px;
+}
+
+.preview.selected {
+  box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
+}
+
+/* Правая часть */
+
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: rgba(20, 20, 20, 0.9);
+}
+
+.subtitle {
+  color: rgba(20, 20, 20, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
+  margin-bottom: 60px;
+}
+
+.text {
+  color: rgba(20, 20, 20, 0.7);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: 0.18px;
+  margin-bottom: 65px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.4);
+}
+
+.circles {
+  margin-bottom: 65px;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
+  border-radius: 50%;
+}
+
+.blue {
+  background-color: #013c7d;
+}
+.green {
+  background-color: #63cba7;
+}
+.red {
+  background-color: #d52f29;
+}
+.black {
+  background-color: #141414;
+}
+.yellow {
+  background-color: #f2c723;
+}
+
+li.selected {
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 2px 2px 4px 0 rgba(81, 91, 117, 0.25);
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+}
+
+.quantity {
+  width: 80px;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.8);
+  background-image: url(/assets/img/ph_caret-down-bold.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: right 0 top 50%;
+  appearance: none;
+}
+.price {
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.8);
+}
+
+.btn {
+  width: 510px;
+  height: 70px;
+  background-color: #141414;
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 75px;
+}
